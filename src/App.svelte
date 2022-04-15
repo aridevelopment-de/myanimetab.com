@@ -1,8 +1,8 @@
 <section id="landing">
 	<nav>
         <div class="nav_image">
-            <a href="/" class="ns"><img class="ns navbar_image" src="/icon.png" alt="myanimetab"></a>
-			<a href="/" class="ns">MyAnimeTab</a>
+            <a href="./" class="ns"><img class="ns navbar_image" src="./icon.png" alt="myanimetab"></a>
+			<a href="./" class="ns">MyAnimeTab</a>
         </div>
         <div class="links">
             <a class="ns" href="https://addons.mozilla.org/firefox/addon/myanimetab/">Install</a>
@@ -15,7 +15,7 @@
 			<p>MyAnimeTab is a Firefox addon that replaces the default Startpage with a customizable one.</p>
 		</div>
 		<div class="landing_image">
-			<img src="/3.png" alt="preview">
+			<img src="./3.png" alt="preview">
 		</div>
 	</main>
 </section>
@@ -59,7 +59,7 @@
 			<p>MyAnimeTab features an easy-to-use settings page. You can install widgets, set their location and most importantly, import your own images.</p>
 		</header>
 		<div class="settings_image">
-			<img src="/2.png" alt="preview">
+			<img src="./2.png" alt="preview">
 		</div>
 	</main>
 </section>
