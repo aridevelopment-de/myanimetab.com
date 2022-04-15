@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Questrial", Arial, "Helvetica", sans-serif;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1.3em;
+	margin-left: 1em;
+}
+
+.pm0 {
+	padding: 0;
+	margin: 0;
+}
+
+.ns {
+	user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+header > h1 {
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 1.5;
+}
