@@ -1,9 +1,33 @@
+:root {
+	--section-padding: 4em;
+
+	--nav-color: hsl(0, 0%, 18%);
+	--landing-color: #9BE8DC;
+	--widget-list-color: #43635F;
+	--settings-preview-color: var(--landing-color);
+	--install-color: #D71673;
+	--install-btn-color: #25635A;
+	--widget-color: hsl(0, 0%, 100%);
+
+	--descriptive-header-fs: 50px;
+	--descriptive-body-fs: 20px;
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Questrial", Arial, "Helvetica", sans-serif;
 	color: white;
+}
+
+section > main {
+	padding: 0 var(--section-padding);
+}
+
+img:not(.navbar_image) {
+	width: 720px;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 a {
