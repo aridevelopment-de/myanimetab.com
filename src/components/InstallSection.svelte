@@ -45,6 +45,7 @@
 		border: none;
 		cursor: pointer;
 		color: var(--nav-color);
+		text-align: center;
 	}
 
 	a:hover {

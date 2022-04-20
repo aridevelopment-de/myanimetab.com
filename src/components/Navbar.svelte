@@ -6,6 +6,7 @@
     <div class="links">
         <a href="https://addons.mozilla.org/firefox/addon/myanimetab/">Install</a>
         <a href="https://github.com/aridevelopment-de/myanimetab">GitHub</a>
+		<a href="https://aridevelopment.de/dc">Discord</a>
     </div>
 </nav>
 <style>
@@ -48,9 +49,10 @@
 
 	.links a {
 		color: white;
+		margin-left: 1em;
 	}
 
-	@media only screen and (max-width: 461px) {
+	@media only screen and (max-width: 590px) {
 		nav {
 			flex-direction: column;
 			align-items: center;
